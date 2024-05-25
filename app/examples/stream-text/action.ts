@@ -1,7 +1,7 @@
 "use server";
 
 import { streamText } from "ai";
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { createStreamableValue } from "ai/rsc";
 
 export const streamTextAction = async () => {

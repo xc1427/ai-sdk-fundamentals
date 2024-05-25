@@ -1,7 +1,7 @@
 "use server";
 
 import { generateObject } from "ai";
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { z } from "zod";
 
 export const generateObjectAction = async () => {

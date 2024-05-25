@@ -1,7 +1,7 @@
 "use server";
 
 import { DeepPartial, streamObject } from "ai";
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { createStreamableValue } from "ai/rsc";
 import { z } from "zod";
 

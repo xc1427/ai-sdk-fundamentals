@@ -1,6 +1,6 @@
 "use server";
 
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { streamText, generateText } from "ai";
 import { createStreamableValue } from "ai/rsc";
 import { z } from "zod";

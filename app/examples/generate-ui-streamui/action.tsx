@@ -1,7 +1,7 @@
 "use server";
 
 import { createAI, getMutableAIState, streamUI } from "ai/rsc";
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { ReactNode } from "react";
 import { z } from "zod";
 import { nanoid } from "nanoid";

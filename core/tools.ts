@@ -1,4 +1,4 @@
-import { openai } from "@ai-sdk/openai";
+import { openai } from "@/lib/utils";
 import { generateText, streamText } from "ai";
 import dotenv from "dotenv";
 import { z } from "zod";
